@@ -24,7 +24,7 @@ const saveFilters = {
         extensions: ['sb3']
     },
     OB: {
-        name: 'OpenBlock Project',
+        name: 'ZQrobot Project',
         extensions: ['ob']
     },
     Sprite2: {

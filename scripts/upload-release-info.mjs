@@ -5,8 +5,8 @@
 import fetch from 'node-fetch';
 import {S3, PutObjectCommand} from '@aws-sdk/client-s3';
 
-export const FILE_PATH = 'desktop/latestRelease.json';
-const REPO = 'openblockcc/openblock-desktop';
+export const FILE_PATH = '';
+const REPO = '';
 
 const s3Client = new S3({
     endpoint: 'https://sgp1.digitaloceanspaces.com',
@@ -25,7 +25,7 @@ const bucketParams = content => ({
 });
 
 const getLatest = () => {
-    const url = `https://api.github.com/repos/${REPO}/releases/latest`;
+    const url = ``;
 
     return fetch(url)
         .then(res => res.json());

@@ -394,11 +394,7 @@ const createMainWindow = () => {
         const choice = dialog.showMessageBoxSync(window, {
             title: productName,
             type: 'question',
-            message: formatMessage({
-                id: 'index.questionLeave',
-                default: 'Leave Openblock?',
-                description: 'prompt for leave Openblock'
-            }),
+            message: '离开？',
             detail: formatMessage({
                 id: 'index.questionLeaveDetail',
                 default: 'Any unsaved changes will be lost.',

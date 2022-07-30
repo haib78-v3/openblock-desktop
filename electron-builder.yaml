@@ -4,7 +4,7 @@ directories:
 extraFiles: ['LICENSE', 'LICENSE.ScratchFoundation', 'TRADEMARK', "tools", "external-resources", 'firmwares', "drivers"]
 
 appId: openblock.cc.openblock-desktop
-productName: "OpenBlock Desktop"
+productName: "ZQrobot Desktop"
 publish:
   - provider: github
   - provider: spaces
@@ -14,7 +14,7 @@ publish:
 
 fileAssociations:
   ext: ob
-  name: OpenBlock project file
+  name: ZQrobot project file
   role: Editor
   icon: buildResources/OpenBlockFile.ico
 
@@ -61,4 +61,4 @@ nsis:
   allowToChangeInstallationDirectory: true
   include: buildResources/installer.nsh
 #   license: LICENSE
-  artifactName: "OpenBlock-Desktop_${version}.${ext}"
+  artifactName: "ZQrobot-Desktop_${version}.${ext}"
